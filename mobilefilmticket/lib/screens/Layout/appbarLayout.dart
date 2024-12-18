@@ -23,13 +23,18 @@ class AppbarLayout extends StatelessWidget implements PreferredSizeWidget {
       ),
       actions: [
         IconButton(
+          icon: const Icon(Icons.search, color: Colors.white, size: 34),
+          onPressed: () {},
+        ),
+        const SizedBox(width: 10),
+        IconButton(
           icon: const Icon(Icons.notifications_none, color: Colors.white, size: 34),
           onPressed: () {},
         ),
-        const SizedBox(width: 15),
+        const SizedBox(width: 10),
         const CircleAvatar(
           radius: 26,
-          backgroundImage: AssetImage('assets/images/phuoc.jpg'),
+          backgroundImage: AssetImage('assets/images/user.jpg'),
           backgroundColor: Colors.grey,
         ),
         const SizedBox(width: 15),
