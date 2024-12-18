@@ -21,7 +21,7 @@ class MovieCard extends StatelessWidget {
       builder: (context, scale, child) {
         return AnimatedContainer(
           duration: const Duration(milliseconds: 300),
-          margin: EdgeInsets.symmetric(horizontal: 1), // Tăng margin để các ảnh bên cạnh hiện rõ hơn
+          margin: EdgeInsets.zero, // Tăng margin để các ảnh bên cạnh hiện rõ hơn
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25),
           ),
