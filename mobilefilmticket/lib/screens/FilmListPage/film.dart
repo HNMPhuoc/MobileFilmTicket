@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobilefilmticket/screens/FilmListPage/components/anticipated_movies_section.dart';
 import 'package:mobilefilmticket/screens/FilmListPage/components/popular_actors.dart';
 import 'package:mobilefilmticket/screens/FilmListPage/components/popular_categories.dart';
 
@@ -44,6 +45,8 @@ class FilmPage extends StatelessWidget {
               const PopularCategories(),  // Sử dụng component GenreButtonsSection
               const SizedBox(height: 20),
               const PopularActors(),  // Sử dụng component PopularActors
+              const SizedBox(height: 20),
+              const AnticipatedMoviesSection(),
             ],
           ),
         ),
