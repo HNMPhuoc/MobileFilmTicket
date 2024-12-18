@@ -18,8 +18,8 @@ class _BottomLayoutState extends State<MainLayout> {
   int myCurrentIndex = 0;
   List pages = const [
     HomePage(),
-    FavoritePage(),
     FilmPage(),
+    FavoritePage(),
     ProfilePage(),
   ];
 
